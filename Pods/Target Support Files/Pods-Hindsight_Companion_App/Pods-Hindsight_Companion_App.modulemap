@@ -1,0 +1,6 @@
+framework module Pods_Hindsight_Companion_App {
+  umbrella header "Pods-Hindsight_Companion_App-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Vlogr" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraButton" destination="iY2-jk-NRa" id="hkS-R1-cRZ"/>
+                <outlet property="flashButtonOutlet" destination="xLC-N6-NKU" id="J8w-6Z-c2b"/>
+                <outlet property="screenView" destination="OMM-NA-lbE" id="eAM-xt-06z"/>
+                <outlet property="switchCamOutlet" destination="DXH-jE-NlC" id="PBA-Q4-iej"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="8CA-PW-d8z"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMM-NA-lbE" userLabel="screenView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY2-jk-NRa" customClass="UIRecordButton" customModule="Vlogr" customModuleProvider="target">
+                    <rect key="frame" x="154.5" y="586" width="66" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="66" id="Iik-DD-8Ce"/>
+                        <constraint firstAttribute="height" constant="66" id="Kxr-gU-j33"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleColor" red="0.083698071540000002" green="0.44333475830000002" blue="0.0099659720439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="capture:" destination="-1" eventType="touchUpInside" id="kSe-y0-Ef3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-jE-NlC">
+                    <rect key="frame" x="315" y="27" width="50" height="40"/>
+                    <state key="normal" image="switchCam.png"/>
+                    <connections>
+                        <action selector="switchCam:" destination="-1" eventType="touchUpInside" id="Uu2-H3-c1T"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rI8-ub-gJq">
+                    <rect key="frame" x="305" y="627" width="60" height="30"/>
+                    <state key="normal" title="Vloggies"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLC-N6-NKU">
+                    <rect key="frame" x="268" y="27" width="33" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="IkP-BQ-6fK"/>
+                        <constraint firstAttribute="width" constant="33" id="NtC-ix-GJe"/>
+                    </constraints>
+                    <state key="normal" image="flash.png"/>
+                    <connections>
+                        <action selector="flash:" destination="-1" eventType="touchUpInside" id="sF1-EW-HNO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rI8-ub-gJq" secondAttribute="trailing" constant="10" id="0L3-Ek-S9q"/>
+                <constraint firstItem="OMM-NA-lbE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1E8-92-7o7"/>
+                <constraint firstItem="DXH-jE-NlC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="27" id="1yK-DH-BIm"/>
+                <constraint firstAttribute="trailing" secondItem="DXH-jE-NlC" secondAttribute="trailing" constant="10" id="61J-Tk-PCI"/>
+                <constraint firstItem="DXH-jE-NlC" firstAttribute="leading" secondItem="xLC-N6-NKU" secondAttribute="trailing" constant="14" id="Dk8-vb-gu2"/>
+                <constraint firstItem="iY2-jk-NRa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ncg-9D-Zfq"/>
+                <constraint firstAttribute="bottom" secondItem="OMM-NA-lbE" secondAttribute="bottom" id="O4e-Pb-a89"/>
+                <constraint firstAttribute="trailing" secondItem="OMM-NA-lbE" secondAttribute="trailing" id="SNZ-bD-K4L"/>
+                <constraint firstAttribute="bottom" secondItem="rI8-ub-gJq" secondAttribute="bottom" constant="10" id="Yv4-O7-UXw"/>
+                <constraint firstItem="xLC-N6-NKU" firstAttribute="top" secondItem="DXH-jE-NlC" secondAttribute="top" id="geT-rF-XMU"/>
+                <constraint firstAttribute="bottom" secondItem="iY2-jk-NRa" secondAttribute="bottom" constant="15" id="j2s-d0-EO9"/>
+                <constraint firstItem="OMM-NA-lbE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kvi-RE-pfk"/>
+            </constraints>
+            <point key="canvasLocation" x="32.5" y="72.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="flash.png" width="38" height="59"/>
+        <image name="switchCam.png" width="50" height="40"/>
+    </resources>
+</document>

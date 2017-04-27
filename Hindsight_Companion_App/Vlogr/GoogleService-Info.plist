@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>889312197175-tnnp60bma258gej2pe3ktkdbmmflsb6c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.889312197175-tnnp60bma258gej2pe3ktkdbmmflsb6c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCHnMXFTn5U3pd5m-6eLv9rsDMSGHWJbCg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>889312197175</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kennybatista.Vlogr</string>
+	<key>PROJECT_ID</key>
+	<string>vlogr-9384d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vlogr-9384d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:889312197175:ios:e5a67992a6b8a14e</string>
+	<key>DATABASE_URL</key>
+	<string>https://vlogr-9384d.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "98912C4DB9B99AF34DD5785EC6F0382AB367AA67" : 9223372036854775807,
+    "D0BDDE3FE9DFFD285414DC74CF8AA7B422C7ACEF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48F7FAB9-F2F9-4CA5-89E1-008FA65D5790",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "98912C4DB9B99AF34DD5785EC6F0382AB367AA67" : "Desktop\/Miscellaneous\/iOS\/Vlogr\/",
+    "D0BDDE3FE9DFFD285414DC74CF8AA7B422C7ACEF" : "Desktop\/Miscellaneous\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hindsight_Companion_App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hindsight_Companion_App.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kennybatista\/Vlogr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "98912C4DB9B99AF34DD5785EC6F0382AB367AA67"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kennybatista\/Miscellaneous.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0BDDE3FE9DFFD285414DC74CF8AA7B422C7ACEF"
+    }
+  ]
+}
